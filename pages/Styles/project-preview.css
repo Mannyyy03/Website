@@ -1,0 +1,53 @@
+.thumbnail
+{
+    filter: brightness(0) saturate(100%) invert(53%) sepia(65%) saturate(2462%) hue-rotate(83deg) brightness(119%) contrast(124%);
+    display: block;       /* images are inline by default */
+    margin: 0 auto;       /* centers horizontally */
+    height: 200px;
+    width: auto;
+    
+}
+
+.project-grid
+{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;          /* space between Box1 and Box2 */
+  flex-wrap: wrap;    /* allows wrapping on small screens */
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.preview
+{
+    display: grid;
+    justify-content: center;
+ 
+}
+.project-title
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+   text-align: center;
+   font-size: 25px;
+}
+.description
+{
+    margin: .5rem 0 0 0;
+    line-height: 1.4;
+}
+.Box1,
+.Box2   
+{
+
+  min-width: 280px;
+  max-width: 520px;
+  box-sizing: border-box;
+
+  border: 2px dashed #00FF00;  /* visible border */
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  background: #000;
+  color: #00FF00;
+}

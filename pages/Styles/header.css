@@ -1,5 +1,6 @@
 .header
 {
+    position:fixed;
     height:55px;
     display: flex;
     position: fixed;
@@ -9,10 +10,13 @@
     bottom:0;
     align-items: center;
     justify-content: center;
-    font-size: 25px;
+    font-size: 45px;
     margin-bottom: 50px;
     border-top: 2px dashed #00FF00;
     border-bottom: 2px dashed #00FF00;
+    font-weight: bold;   
+    z-index: 1000;            
+    background-color: #000;  
 }
 
 

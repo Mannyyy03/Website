@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Glass TTY VT220";
+    src: url("fonts/Glass_TTY_VT220.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding-top: 75px;
+    background-color: #000;  /* black background */
+    color: #00FF00;          /* green text */
+    font-family: "Glass TTY VT220", monospace;
+}
+
+svg {
+    color: #00FF00; 
+    fill: currentColor;
+}
