@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Health AI</title>
+
+    <!--The link below imports the Windows 98 look-->
+    <link rel = "stylesheet" href = "https://unpkg.com/98.css">
+    <link rel ="stylesheet" href="Styles/brian.css">
+</head>
+
+<body>
+    <div class="container">
+    <!-- The picture will be the background to act as a Windows 95 retro thing -->
+    <!--The code below creates the window-->      
+      <div class="window" style="width: 500px">
+        <div class="title-bar">
+          <div class="title-bar-text">Brian the Brain</div>
+          <div class="title-bar-controls">
+            <button aria-label="Minimize"></button>
+            <button aria-label="Maximize"></button>
+            <button aria-label="Close"></button>
+          </div>
+        </div>
+
+        <div class="window-body">
+            <h2>Talk to Our AI!</h2>>
+          <img src ="/SVG's/Brian.png">
+          <a href="https://drive.google.com/file/d/1ZPtA6PknIGlRdVRXV3kQ2XD-eg6PoNbS/view?usp=sharing">Demo presentation</a>
+                    </div>
+
+        </div>
+
+        <!--Chatbox-->
+        <section id="chat-section">
+                <div id="chatbox">
+                    <div id="messages"></div>
+                    <input type="text" id="userInput" placeholder="Type a message...">
+                    <button onclick="sendMessage()">Send</button>
+                </div>
+        </section>
+      </div>
+    </div>           
+</body>
+</html>
